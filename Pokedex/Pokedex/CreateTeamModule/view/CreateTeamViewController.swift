@@ -32,6 +32,7 @@ class CreateTeamViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpTable()
+        teamNameField.delegate = self
         if isEditingView ?? false{
             self.title = "Equipo"
             self.teamNameField.text = teamInfo?.name
@@ -45,12 +46,20 @@ class CreateTeamViewController: UIViewController {
 
         }
         self.saveTeam.isHidden = true
+
+          let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+
+         view.addGestureRecognizer(tap)
     }
     
 
     fileprivate func setUpTable(){
         self.tableView.dataSource = self
         self.tableView.delegate =  self
+    }
+
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func addPokemonButton(_ sender: Any) {
@@ -164,4 +173,10 @@ extension CreateTeamViewController:UITableViewDelegate,UITableViewDataSource{
 
     
     
+}
+
+extension CreateTeamViewController:UITextFieldDelegate{
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+    }
 }
