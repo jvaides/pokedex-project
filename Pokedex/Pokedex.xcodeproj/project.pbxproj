@@ -49,8 +49,8 @@
 		F0A38DE9286B6BAC00FA6763 /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A38DE7286B6BAC00FA6763 /* TeamsTableViewCell.swift */; };
 		F0A38DEA286B6BAC00FA6763 /* TeamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0A38DE8286B6BAC00FA6763 /* TeamsTableViewCell.xib */; };
 		F0A38DEC286BA8C000FA6763 /* Indicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A38DEB286BA8C000FA6763 /* Indicators.swift */; };
-		F0A38DF0286BDFAE00FA6763 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0A38DEE286BDFAE00FA6763 /* Pokemon Hollow.ttf */; };
-		F0A38DF1286BDFAE00FA6763 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0A38DEF286BDFAE00FA6763 /* Pokemon Solid.ttf */; };
+		F0A97FB8286BE7B200AC9729 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0A97FB6286BE7B200AC9729 /* Pokemon Hollow.ttf */; };
+		F0A97FB9286BE7B200AC9729 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0A97FB7286BE7B200AC9729 /* Pokemon Solid.ttf */; };
 		F0B34F912868AB1F0045E9DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B34F902868AB1F0045E9DF /* HomeViewController.swift */; };
 		F0B34F932868ACBC0045E9DF /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B34F922868ACBC0045E9DF /* HomePresenter.swift */; };
 		F0B34F952868ACD40045E9DF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B34F942868ACD40045E9DF /* HomeRouter.swift */; };
@@ -140,8 +140,8 @@
 		F0A38DE7286B6BAC00FA6763 /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
 		F0A38DE8286B6BAC00FA6763 /* TeamsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsTableViewCell.xib; sourceTree = "<group>"; };
 		F0A38DEB286BA8C000FA6763 /* Indicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicators.swift; sourceTree = "<group>"; };
-		F0A38DEE286BDFAE00FA6763 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pokemon Hollow.ttf"; path = "../../../../../Documents/Pokedex/Pokedex/Resources/Pokemon Hollow.ttf"; sourceTree = "<group>"; };
-		F0A38DEF286BDFAE00FA6763 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pokemon Solid.ttf"; path = "../../../../../Documents/Pokedex/Pokedex/Resources/Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		F0A97FB6286BE7B200AC9729 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		F0A97FB7286BE7B200AC9729 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		F0B34F902868AB1F0045E9DF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F0B34F922868ACBC0045E9DF /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		F0B34F942868ACD40045E9DF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -673,8 +673,8 @@
 		F0E3ECD728680CFA007BF773 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F0A38DEE286BDFAE00FA6763 /* Pokemon Hollow.ttf */,
-				F0A38DEF286BDFAE00FA6763 /* Pokemon Solid.ttf */,
+				F0A97FB6286BE7B200AC9729 /* Pokemon Hollow.ttf */,
+				F0A97FB7286BE7B200AC9729 /* Pokemon Solid.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -789,9 +789,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01E35262867DDF200BFCE82 /* LaunchScreen.storyboard in Resources */,
-				F0A38DF1286BDFAE00FA6763 /* Pokemon Solid.ttf in Resources */,
+				F0A97FB9286BE7B200AC9729 /* Pokemon Solid.ttf in Resources */,
+				F0A97FB8286BE7B200AC9729 /* Pokemon Hollow.ttf in Resources */,
 				F01E35232867DDF200BFCE82 /* Assets.xcassets in Resources */,
-				F0A38DF0286BDFAE00FA6763 /* Pokemon Hollow.ttf in Resources */,
 				F0A38DEA286B6BAC00FA6763 /* TeamsTableViewCell.xib in Resources */,
 				F097E7C728691E1C00AA7230 /* PokemonDefaultTableViewCell.xib in Resources */,
 				F097E7CB28691E2D00AA7230 /* PokemonImageTableViewCell.xib in Resources */,
